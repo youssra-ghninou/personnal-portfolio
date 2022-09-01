@@ -1,8 +1,13 @@
 import './index.css'
+import Navbar from "./components/Navbar"
+import Header from "./components/Header"
+
+
+
 
 function App() {
   return (
-    <div className="font-abel bg-green-300">hi</div>
+    <Navbar/>
   );
 }
 
