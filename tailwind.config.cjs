@@ -13,7 +13,14 @@ module.exports = {
       'yellow':'#FFE385',
       'white':'#F7F7F7',
       'green':'#5CDFA5',
-      'dviolet':'#484575'
+      'dviolet':'#484575',
+      'lviolet':'#666385',
+      'red':'#F96256',
+      'grey':'#E4E3E5',
+      'lyellow':'#FDBC3D',
+      'lgreen':'#33C948',
+
+
     },
     fontFamily:{
       'abel':['Abel', 'sans-serif']
