@@ -1,13 +1,8 @@
-import { useState } from 'react'
-import './App.css'
-import Navbar from '../components/Navbar'
-import Header from '../components/Header'
+import './index.css'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <Navbar/>
+    <div className="font-abel bg-green-300">hi</div>
   );
 }
 
