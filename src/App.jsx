@@ -13,6 +13,7 @@ function App() {
       <Navbar/>,
       <Header/>,
       <Overview/>
+      <div className="work">Work</div>
     </div>
   );
 }
