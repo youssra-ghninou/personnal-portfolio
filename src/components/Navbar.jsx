@@ -1,4 +1,4 @@
-  
+import { HashLink as Link } from 'react-router-hash-link';
         import {
             Menu,
             MenuItem,
@@ -12,7 +12,7 @@
                 <div className="nav right-0 mr-4 fixed">
                     <Menu menuButton={<MenuButton><i class="fa-solid fa-bars text-violet "></i></MenuButton>} transition>
                         <MenuItem >
-                            <div className="home text-[16px] font-abel text-black hover:decoration-4 hover:decoration-violet">Home</div>
+                        <Link to="/#Projects"><div className="home text-[16px] font-abel text-black hover:decoration-4 hover:decoration-violet">Home</div></Link> 
                         </MenuItem>
                         <MenuItem>
                            <div className="home text-[16px] font-abel text-black hover:decoration-4 hover:decoration-violet">Projects</div>
