@@ -4,8 +4,8 @@ import Github from "./Github";
 
 const Project = (props) => {
     return (
-        <div className="div  rounded-6 gap-6 lg:gap-1 lg:h-[400px] lg:w-[300px] mx-3 my-3 flex flex-col text-left px-5 justify-center ">
-            <div className={`flex items-center text-[18px] text-bold font-abel text-violet   `+props.className}>
+        <div className="div  rounded-[10px] gap-6 md:gap-6 md:h-[400px] bg-white md:w-[300px]  mx-3 my-3 flex flex-col text-left px-5 py-5 md:justify-center  ">
+            <div className={`flex items-center text-[18px] text-bold text-abel text-violet   `+props.className}>
                 {props.text}
             </div>
             <div className="text text-[10px] text-abel">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ncididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris

@@ -11,22 +11,22 @@ import Project from './components/Project';
 function App() {
   return (
 
-    <div className="w-full flex flex-col gap-5">
+    <div className=" flex flex-col gap-5">
       <Navbar />
       <Header />
       <Overview />
-      <div className="work underline decoration-violet decoration-4 text-center  font-abel text-[16px]">Work</div>
-      <div className="projects-section flex flex-col gap-5 lg:gap-22  lg:grid lg:grid-cols-2">
+      <div className="work underline decoration-violet decoration-4 text-center  text-abel text-[16px]">Work</div>
+      <div className="projects-section  flex flex-col md:pl-60 md:grid md:grid-cols-2 md:mb-11">
         <Project text='I2I' />
         <Project text='chat-app-css-illustration-master' />
         <Project text='clipboard-landing-page-master' />
         <Project text='clipboard-landing-page-master' />
       </div>
-      <div className="contact underline decoration-violet decoration-4 text-center mt-5 font-abel text-[16px]">Contact</div>
-      <div className="contact flex flex-col gap-1 items-center justify-center text-left">
-        <a href="" className='email text-[14px]  font-medium font-abel text-grey'>ghninou177@gmail.com</a>
-        <a href="" className='email text-[14px] font-medium font-abel text-grey'>LinkedIn</a>
-        <a href="" className='email text-[14px] font-medium font-abel text-grey'>github</a>
+      <div className="contact underline decoration-violet decoration-4 text-center mt-5 text-abel text-[16px] md:hidden">Contact</div>
+      <div className="contact flex flex-col gap-1 md:flex-row md:gap-6 pb-5 items-center justify-center text-left">
+        <a href="" className='email text-[14px] md:text-[20px]  font-light text-abel '>ghninou177@gmail.com </a>
+        <a href="" className='email text-[14px] md:text-[20px]  font-light text-abel '>LinkedIn</a>
+        <a href="" className='email text-[14px] md:text-[20px]  font-light text-abel text-black'>github</a>
       </div>
     </div>
   );
