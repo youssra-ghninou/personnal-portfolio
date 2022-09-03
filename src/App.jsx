@@ -1,4 +1,3 @@
-import { Routes, Route, Link } from "react-router-dom";
 import './index.css'
 import Navbar from "./components/Navbar"
 import Header from "./components/Header"
@@ -17,9 +16,10 @@ function App() {
       <Header />
       <Overview />
       <div className="work underline decoration-violet decoration-4 text-center  font-abel text-[16px]">Work</div>
-      <div className="projects-section flex flex-col gap-5">
+      <div className="projects-section flex flex-col gap-5 lg:gap-22  lg:grid lg:grid-cols-2">
         <Project text='I2I' />
         <Project text='chat-app-css-illustration-master' />
+        <Project text='clipboard-landing-page-master' />
         <Project text='clipboard-landing-page-master' />
       </div>
       <div className="contact underline decoration-violet decoration-4 text-center mt-5 font-abel text-[16px]">Contact</div>

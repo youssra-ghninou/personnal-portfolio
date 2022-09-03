@@ -41,10 +41,10 @@ const OverviewContent = () => {
         {interests.map(({id,title,content}) => {
         return(
             <div key={id} className="flex flex-col gap-1 ">
-                <div className="text-white font-normal text-[10px] font-abel">
+                <div className="text-white font-normal text-[10px] lg:text-[14px] font-abel">
                     {title}
                 </div>
-                <div className="text-yellow font-thin text-[10px] font-abel">
+                <div className="text-yellow font-thin text-[10px] lg:text-[14px]  font-abel">
                     {content}
                 </div>
             </div>
