@@ -8,18 +8,26 @@
         
         export default function Example() {
             return (
-                <div className="nav right-0 mr-4 fixed md:hidden">
-                    <Menu menuButton={<MenuButton><i class="fa-solid fa-bars text-violet "></i></MenuButton>} transition>
-                        <MenuItem >
-                        <div className="home text-[16px] text-abel text-black hover:decoration-4 hover:decoration-violet">Home</div>
-                        </MenuItem>
-                        <MenuItem>
-                           <div className="home text-[16px] text-abel text-black hover:decoration-4 hover:decoration-violet">Projects</div>
-                        </MenuItem>
-                        <MenuItem>
-                            <div className="home text-[16px] text-abel text-black hover:decoration-4 hover:decoration-violet">Contact</div>
-                        </MenuItem>
-                    </Menu>
+                <div className="nav right-0 mr-4 fixed ">
+                    <div className="mobile lg:hidden">
+                        <Menu menuButton={<MenuButton><i class="fa-solid fa-bars text-violet "></i></MenuButton>} transition>
+                            <MenuItem >
+                            <div className="home text-[16px] text-abel text-black hover:decoration-4 hover:decoration-violet">Home</div>
+                            </MenuItem>
+                            <MenuItem>
+                               <div className="home text-[16px] text-abel text-black hover:decoration-4 hover:decoration-violet">Projects</div>
+                            </MenuItem>
+                            <MenuItem>
+                                <div className="home text-[16px] text-abel text-black hover:decoration-4 hover:decoration-violet">Contact</div>
+                            </MenuItem>
+                        </Menu>
+                    </div>
+                    <div className="desktop hidden lg:flex lg:gap-11 lg:mt-3 lg:mr-3 lg:text-abel lg:text-[16px]">
+                          <a href="" className="home lg:hover:underline hover:decoration-violet decoration-4">Home</a>
+                          <a href="" className="projects">Projects</a>
+                          <a href="" className="contact">Contact</a>
+                    </div>
+
                 </div>
             );
         }     
