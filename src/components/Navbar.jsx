@@ -21,6 +21,7 @@ import DarkModeToggle from './DarkModeToggle';
                             <MenuItem>
                                 <div className="home text-[16px] text-abel text-black hover:decoration-4 hover:decoration-violet">Contact</div>
                             </MenuItem>
+                            <DarkModeToggle />
                         </Menu>
                     </div>
                     <div className="desktop hidden lg:flex lg:gap-11 lg:mt-3 lg:mr-3 lg:text-abel lg:text-[16px]">
