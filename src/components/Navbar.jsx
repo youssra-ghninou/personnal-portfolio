@@ -5,6 +5,7 @@
         } from '@szhsin/react-menu';
         import '@szhsin/react-menu/dist/index.css';
         import '@szhsin/react-menu/dist/transitions/slide.css';
+import DarkModeToggle from './DarkModeToggle';
         
         export default function Example() {
             return (
@@ -26,6 +27,9 @@
                           <a href="" className="home lg:hover:underline hover:decoration-violet decoration-4">Home</a>
                           <a href="" className="projects">Projects</a>
                           <a href="" className="contact">Contact</a>
+                          <div className="text-xl">
+                            <DarkModeToggle />
+                        </div>
                     </div>
 
                 </div>
