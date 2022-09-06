@@ -11,7 +11,7 @@ import Project from './components/Project';
 function App() {
   return (
 
-    <div className=" flex flex-col gap-5">
+    <div className=" flex flex-col gap-5 bg-violet dark:bg-green"> 
       <Navbar />
       <Header />
       <Overview />
