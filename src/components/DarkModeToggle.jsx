@@ -7,7 +7,7 @@ import useDarkMode from '../hook/useDarkMode';
 const DarkModeToggle = () => {
     const [colorTheme, setTheme] = useDarkMode();
     return (
-        <button onClick={() => setTheme(colorTheme)} className="transition duration-500">
+        <button onClick={() => setTheme(colorTheme)} className="transition duration-500 pl-6">
             {colorTheme === "light" ? (
                 <IconContext.Provider value={{ className: "text-xl" }}>
                     <div className="flex flex-col gap-1 justify-center items-center w-full">
