@@ -12,13 +12,13 @@ const DarkModeToggle = () => {
                 <IconContext.Provider value={{ className: "text-xl" }}>
                     <div className="flex flex-col gap-1 justify-center items-center w-full">
                         <BsSun />
-                        <span className="text-xs">Light Mode</span>
+                        <span className="text-xs hidden">Light Mode</span>
                     </div>
                 </IconContext.Provider>) :
                 (<IconContext.Provider value={{ className: "text-xl" }}>
                     <div className="flex flex-col gap-1 justify-center items-center w-full">
                         <MdDarkMode />
-                        <span className="text-xs">Dark Mode</span>
+                        <span className="text-xs hidden">Dark Mode</span>
                     </div>
                 </IconContext.Provider>)
             }

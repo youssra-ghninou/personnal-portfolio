@@ -8,15 +8,15 @@ import Project from './components/Project';
 
 
 
-function App() {
+function App() { 
   return (
 
-    <div className=" flex flex-col gap-5 bg-violet dark:bg-green"> 
+    <div className=" flex flex-col gap-5 mx-3 items-center"> 
       <Navbar />
       <Header />
       <Overview />
       <div className="work underline decoration-violet decoration-4 text-center  text-abel text-[16px]">Work</div>
-      <div className="projects-section  flex flex-col md:pl-60 md:grid md:grid-cols-2 md:mb-11">
+      <div className="projects-section  flex flex-col md:gap-32 md:grid md:grid-cols-2 md:mb-11">
         <Project text='I2I' />
         <Project text='chat-app-css-illustration-master' />
         <Project text='clipboard-landing-page-master' />
