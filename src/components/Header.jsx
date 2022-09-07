@@ -10,7 +10,7 @@ const Header = () => {
                     wrapper="B"/>
                 </div>
              </div>
-            <div className="profile text-[14px] md:text-[22px] text-dviolet font-light text-center">I’m a software developer in the bay area who enjoys designing and building beautiful, performant, responsive websites </div>
+            <div className="profile text-[14px] md:w-8/12 md:text-[22px] text-dviolet font-light text-center">I’m a software developer in the bay area who enjoys designing and building beautiful, performant, responsive websites </div>
         </div>
     );
 }

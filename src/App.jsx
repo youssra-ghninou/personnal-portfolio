@@ -11,8 +11,10 @@ import Project from './components/Project';
 function App() { 
   return (
 
-    <div className=" flex flex-col gap-5 px-3 items-center"> 
-      <Navbar />
+    <div className=" flex flex-col gap-10 px-3 items-center"> 
+      <div className="div  sticky">
+        <Navbar />
+      </div>
       <div className="hash" id='Header'>
         <Header />
       </div>
