@@ -36,7 +36,7 @@ const Project = () => {
     ];
     return (
         <>
-            <div className="flex flex-col md:gap-32 md:grid md:grid-cols-2 md:mb-11" id='Project'>
+            <div className="flex flex-col gap-6 md:gap-32 md:grid md:grid-cols-2 md:mb-11" id='Project'>
                 {Project.map(({ id, title, content, image, code, demo}) => {
                     return (
                         <div key={id} className="rounded-[10px] gap-6 md:gap-6 bg-white md:w-[300px]  mx-3  flex flex-col text-left px-2 py-2 md:justify-center">
