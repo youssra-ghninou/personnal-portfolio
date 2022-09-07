@@ -7,7 +7,7 @@ const OverviewContent = () => {
       {
         id : 2,
         title: '> Youssra.contactInfo',
-        content: '[“ghninou177@gmail.com”, LinkedIn, github]',
+        content: '[“ghninou177@gmail.com”, Youssra Ghninou, youssra-ghninou]',
       },
       {
         id : 3,
