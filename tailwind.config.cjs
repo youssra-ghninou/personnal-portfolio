@@ -20,6 +20,8 @@ module.exports = {
       'grey':'#E4E3E5',
       'lyellow':'#FDBC3D',
       'lgreen':'#33C948',
+      'darkblack':'#242435',
+      'darkgrey':'#979797'
     },
     fontFamily:{
       'abel':['Abel', 'sans-serif']

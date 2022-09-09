@@ -39,7 +39,7 @@ const Project = () => {
             <div className="flex flex-col gap-6 md:gap-32 md:grid md:grid-cols-2 md:mb-11" id='Project'>
                 {Project.map(({ id, title, content, image, code, demo}) => {
                     return (
-                        <div key={id} className="rounded-[10px] gap-6 md:gap-6 bg-white md:w-[300px]  mx-3  flex flex-col text-left px-2 py-2 md:justify-center">
+                        <div key={id} className="rounded-[10px] shadow-md gap-6 md:gap-6 bg-white md:w-[300px]  mx-3  flex flex-col text-left px-2 py-2 md:justify-center">
                             <div className="">
                                 <img className="rounded-[10px]  transition ease-in-out delay-150 bg-gray-500 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300" src={image} alt={title} />
                             </div>
