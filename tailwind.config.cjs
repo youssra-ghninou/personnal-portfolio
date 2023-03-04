@@ -6,8 +6,8 @@ module.exports = {
   ],
   darkMode:'class',
   theme: {
-    extend: {},
-    colors:{
+    extend: {    
+      colors:{
       'black':'#000000',
       'violet':'#756BF0',
       'blue':'#35FEFF',
@@ -26,7 +26,7 @@ module.exports = {
     fontFamily:{
       'abel':['Abel', 'sans-serif']
     },
-
-  },
+},
+},
   plugins: [],
 }
