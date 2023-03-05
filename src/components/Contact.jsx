@@ -13,7 +13,7 @@ const Contact = () => {
             <input
               type='hidden'
               name='access_key'
-              value='7fbf7882-b060-442b-a12e-73a1c07b27c8'
+              value='744d56a8-ac1a-4697-9df7-8c2542ff6716'
             />
             <div className='relative'>
               <input
@@ -69,7 +69,7 @@ const Contact = () => {
               name='redirect'
               value='https://web3forms.com/success'
             />
-            <div className='flex w-fit mx-auto px-2 text-dviolet flex-row items-center justify-center pt-8 gap-1 text-lg font-bold border-b-2 border-brand'>
+            <div className='flex w-fit mx-auto px-2 dark:text-grey text-dviolet flex-row items-center justify-center pt-8 gap-1 text-lg font-bold border-b-2 border-brand'>
               <IoMdSend />
               <button type='submit'>send</button>
             </div>

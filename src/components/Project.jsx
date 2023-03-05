@@ -1,4 +1,5 @@
 import { uid } from "uid";
+import Stack from "./Stack";
 import Stacks from "./Stacks";
 const Project = () => {
     const Project = [
@@ -105,10 +106,12 @@ const Project = () => {
                                     {content}
                                 </div>
                                 <div className="sta flex gap-2">
-                                <button className="flex items-center justify-center rounded-sm h-[18px] border-green px-2 py-2 border-2 border-solid" >
-            <div className={` text-[8px] font-medium text-abel text-black  `}>
-                {tools}
-            </div>
+                                <button className="" >
+            <div className={` text-[8px] flex gap-1 font-medium text-abel text-black  `}>
+            {tools.map((item, i) => {
+                      return <Stack key={i}>{item}</Stack>
+                    })}    
+                          </div>
         </button>
                                 </div> 
                                 <div className="dem flex gap-2 items-center justify-end pr-4">

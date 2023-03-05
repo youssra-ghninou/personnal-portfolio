@@ -4,12 +4,13 @@ import Header from "./components/Header"
 import Overview from './components/Overview';
 import Project from './components/Project';
 import Contact from './components/Contact';
+import Footer from './components/Footer';
 
 function App() { 
   return (
 
     <div className=" flex flex-col  gap-10 dark:bg-darkblack px-3 items-center"> 
-      <div className="dark:bg-dblack sticky">
+      <div className="">
         <Navbar />
       </div>
       <div className="hash " id='Header'>
@@ -18,16 +19,11 @@ function App() {
       <Overview />
       <div className=" underline decoration-violet decoration-4 text-center dark:text-grey text-abel text-[24px] lg:text-[35px] font-bold">Work</div>
       <div className="projects-section">
-        <Project  />
+        <Project />
       </div>
-      <div className=" underline decoration-violet decoration-4 text-center mt-5 text-abel text-[24px] lg:text-[35px] font-bold ">Contact</div>
-      <Contact  />
-
-      <div className=" flex flex-col gap-1 dark:text-grey md:flex-row md:gap-6 pb-5 items-center justify-center text-left" id='Contact'>
-        <a href="mailto:ghninou177@gmail.com" className='email text-[14px] md:text-[20px]  font-light text-abel '>ghninou177@gmail.com </a>
-        <a href="https://www.linkedin.com/in/youssra-ghninou/" className='email text-[14px] md:text-[20px]  font-light text-abel '>LinkedIn</a>
-        <a href="https://github.com/youssra-ghninou" className='email text-[14px] md:text-[20px]  font-light text-abel text-black dark:text-grey'>github</a>
-      </div>
+      <div className=" underline decoration-violet decoration-4 dark:text-grey text-center mt-5 text-abel text-[24px] lg:text-[35px] font-bold ">Contact</div>
+      <Contact />
+      <Footer />
     </div>
   );
 }
