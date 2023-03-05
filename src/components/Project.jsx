@@ -91,7 +91,7 @@ const Project = () => {
     ];
     return (
         <>
-            <div className="flex flex-col gap-6  md:grid md:grid-cols-2 lg:grid-cols-3 md:mb-11" id='Project'>
+            <div className="flex flex-col gap-6  md:grid md:grid-cols-2 lg:grid-cols-3 md:mb-11" >
                 {Project.reverse().map(({ id, title, content, image, code, demo, tools}) => {
                     return (
                         <div key={uid()} className="rounded-[10px] shadow-md gap-3 bg-white  mx-3  flex flex-col text-left px-2 py-2 md:justify-center">

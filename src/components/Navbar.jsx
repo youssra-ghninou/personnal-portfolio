@@ -32,9 +32,9 @@ import { HashLink } from 'react-router-hash-link';
                         </Menu>
                     </div>
                     <div className="hidden w-screen p-3 bg-[#fff] dark:bg-darkblack justify-end lg:flex lg:gap-11 lg:text-abel lg:text-dviolet dark:text-grey lg:text-[16px]">
-                    <HashLink smooth to="/#Header"> <a href="" className="home lg:hover:underline hover:decoration-violet decoration-4">Home</a></HashLink>
-                    <HashLink smooth to="/#Project"> <a href="" className="projects lg:hover:underline hover:decoration-violet decoration-4">Projects</a></HashLink>
-                    <HashLink smooth to="/#Contact">  <a href="" className="contact lg:hover:underline hover:decoration-violet decoration-4">Contact</a></HashLink>
+                    <HashLink smooth to="/#Header"> <a href="" className="lg:hover:underline hover:decoration-violet decoration-4">Home</a></HashLink>
+                    <HashLink smooth to="/#Project"> <a href="" className="lg:hover:underline hover:decoration-violet decoration-4">Projects</a></HashLink>
+                    <HashLink smooth to="/#Contact">  <a href="" className="lg:hover:underline hover:decoration-violet decoration-4">Contact</a></HashLink>
                           <div className="text-xl">
                             <DarkModeToggle />
                         </div>
