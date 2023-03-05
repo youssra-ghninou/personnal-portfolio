@@ -8,12 +8,25 @@ const Project = () => {
             image: '/images/mask.jpg',
             code: 'https://github.com/youssra-ghninou/clipboard-landing-page-master',
             demo: 'https://youssra-ghninou.github.io/clipboard-landing-page-master/',
+                  tools: [
+        'HTML',
+        'Css',
+        'Github',
+      ],
         },        {
             title: 'Taste Now',
             content: 'A web application for food delivery',
             image: '/images/tastenow.png',
             code: 'https://github.com/youssra-ghninou/taste-now',
             demo: 'https://taste-now.vercel.app/',
+                  tools: [
+        'HTML',
+        'Javascript',
+        'Tailwind',
+        'Reactjs',
+        'Vercel',
+        'Github',
+      ],
         },
         {
             image: '/images/i2i.png',
@@ -21,6 +34,14 @@ const Project = () => {
             content: 'A web application for the company I2I',
             code: 'https://github.com/youssra-ghninou/i2i-infogerance',
             demo: 'https://www.info2i.com/',
+                  tools: [
+        'HTML',
+        'Javascript',
+        'Tailwind',
+        'Reactjs',
+        'Vercel',
+        'Github',
+      ],
         },
         {
             title: 'ussra.me',
@@ -28,6 +49,14 @@ const Project = () => {
             image: '/images/portfolio.png',
             code: 'https://github.com/youssra-ghninou/personnal-portfolio',
             demo: 'https://www.ussra.me/',
+                  tools: [
+        'HTML',
+        'Javascript',
+        'Tailwind',
+        'Reactjs',
+        'Vercel',
+        'Github',
+      ],
         },
 
         {
@@ -36,6 +65,12 @@ const Project = () => {
             image: '/images/devblog.png',
             code: 'https://github.com/youssra-ghninou/dev_blog',
             demo: 'https://dev-blog-ruby.vercel.app/',
+                  tools: [
+                    'Nextjs',
+                    'Tailwind',
+        'Vercel',
+        'Github',
+      ],
         },
 
         {
@@ -43,14 +78,20 @@ const Project = () => {
             content: 'A video tutorial platform for e-learning (LMS)',
             image: '/images/skillsbuilder.png',
             code: 'https://github.com/DevMeFly/devfly_itholic',
-            demo: 'https://devfly-itholic.vercel.app/',
+            demo: 'https://devfly-itholic.vercel.app/',    
+               tools: [
+                'Nextjs',
+                'Tailwind',
+                'Reactjs',
+                'Github',
+              ],
         },
 
     ];
     return (
         <>
             <div className="flex flex-col gap-6  md:grid md:grid-cols-2 lg:grid-cols-3 md:mb-11" id='Project'>
-                {Project.reverse().map(({ id, title, content, image, code, demo}) => {
+                {Project.reverse().map(({ id, title, content, image, code, demo, tools}) => {
                     return (
                         <div key={uid()} className="rounded-[10px] shadow-md gap-3 bg-white  mx-3  flex flex-col text-left px-2 py-2 md:justify-center">
                             <div className="">
@@ -64,10 +105,11 @@ const Project = () => {
                                     {content}
                                 </div>
                                 <div className="sta flex gap-2">
-                                   <Stacks text='HTML5'/>
-                                   <Stacks text='CSS3'/>
-                                   <Stacks text='Javascript'/>
-                                   <Stacks text='ReactJS'/>
+                                <button className="flex items-center justify-center rounded-sm h-[18px] border-green px-2 py-2 border-2 border-solid" >
+            <div className={` text-[8px] font-medium text-abel text-black  `}>
+                {tools}
+            </div>
+        </button>
                                 </div> 
                                 <div className="dem flex gap-2 items-center justify-end pr-4">
                             <div> 
