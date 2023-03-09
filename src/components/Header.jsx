@@ -43,7 +43,7 @@ const Header = () => {
         </div>
       </div>
       <a
-        href='/uploads/Youssra_GHNINOU_Resume.pdf'
+        href='uploads/Youssra_GHNINOU_Resume.pdf'
         target='_blank'
         className='cursor-pointer'
       >
